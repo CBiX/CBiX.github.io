@@ -1,0 +1,23 @@
+@font-face {
+    font-family: cbix;
+    src: url('../font/AlegreyaSans-Light.ttf');
+}
+
+@font-face {
+    font-family: cbix;
+    src: url('../font/AlegreyaSans-LightItalic.ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: cbix;
+    src: url('../font/AlegreyaSans-ExtraBold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: cbix;
+    src: url('../font/AlegreyaSans-ExtraBoldItalic.ttf');
+    font-style: italic;
+    font-weight: bold;
+}
