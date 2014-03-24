@@ -58,6 +58,18 @@ nav {
 padding: 0 2em;
 }
 
+nav>a {
+transition: all 0.5s ease-in 0s;
+-webkit-transition: all 0.5s ease-in 0s;
+-o-transition: all 0.5s ease-in 0s;
+-moz-transition: all 0.5s ease-in 0s;
+}
+
+nav>a:hover {
+background-color: white;
+color: black;
+}
+
 left>.content {
 position: relative;
 width: 100%;
