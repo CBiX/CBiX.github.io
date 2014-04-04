@@ -17,9 +17,6 @@ ul {
 margin: 0 0 0 0.5em;
 }
 
-::selection { background: #b60; }
-::-moz-selection { background: #b60; }
-
 h1 {
 font-size: 3em;
 text-align: right;
@@ -61,13 +58,16 @@ padding: 0 2em;
 nav>a {
 display: table;
 padding: 0 0.5em;
+}
+
+a,a>*{
 transition: all 0.5s ease-in 0s;
 -webkit-transition: all 0.3s ease-in 0s;
 -o-transition: all 0.3s ease-in 0s;
 -moz-transition: all 0.3s ease-in 0s;
 }
 
-nav>a:hover {
+a:hover,a:hover>* {
 background-color: white;
 color: black;
 }
