@@ -59,10 +59,12 @@ padding: 0 2em;
 }
 
 nav>a {
+display: table;
+padding: 0 0.5em;
 transition: all 0.5s ease-in 0s;
--webkit-transition: all 0.5s ease-in 0s;
--o-transition: all 0.5s ease-in 0s;
--moz-transition: all 0.5s ease-in 0s;
+-webkit-transition: all 0.3s ease-in 0s;
+-o-transition: all 0.3s ease-in 0s;
+-moz-transition: all 0.3s ease-in 0s;
 }
 
 nav>a:hover {
@@ -80,10 +82,6 @@ width: 80%;
 margin: auto;
 height: auto;
 margin: 1em 1em -10% 1em;
-}
-
-nav>a {
-display: block;
 }
 
 #right {
