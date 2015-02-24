@@ -3,7 +3,7 @@
 h1, h2, p, a, li, strong {
 font-family: cbix, sans-serif;
 font-weight: normal;
-color: white;
+color: #839496;
 padding: 0;
 margin: 0;
 text-decoration: none;
@@ -11,7 +11,13 @@ line-height: 1.5;
 text-align: justify;
 }
 
-strong { font-weight: bold; }
+strong {
+font-weight: bold;
+}
+
+h1, h2, strong {
+color: #93a1a1;
+}
 
 ul {
 margin: 0 0 0 0.5em;
@@ -28,7 +34,7 @@ font-size: 1.5em;
 
 body {
 position: relative;
-background-color: black;
+background-color: #002b36;
 padding: 0;
 margin: 0;
 }
@@ -68,8 +74,8 @@ transition: all 0.5s ease-in 0s;
 }
 
 a:hover,a:hover>* {
-background-color: white;
-color: black;
+background-color: #fdf6e3;
+color: #586e75;
 }
 
 left>.content {
