@@ -123,6 +123,7 @@ position: relative;
 width: auto;
 max-width: auto;
 height: 80%;
+background-image: url('../img/me.500.jpg');
 background-attachment: fixed;
 background-position: center center;
 }
